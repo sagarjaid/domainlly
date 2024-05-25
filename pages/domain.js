@@ -2,20 +2,8 @@ import React from 'react';
 
 const index = () => {
   return (
-    <div className='m-auto min-h-screen flex flex-col  gap-10 justify-center items-center bg-black text-white'>
-      <div className='flex flex-col items-center text-center gap-2.5'>
-        <span className='text-2xl font-extrabold sdm:text-4xl sm:gap-3 md:text-5xl mdx:text-6xl'>
-          The New and Simple way
-        </span>
-        <span className='text-2xl font-extrabold sdm:text-4xl sm:gap-3 md:text-5xl mdx:text-6xl'>
-          to Search a Domain
-        </span>
-        <span className='text-xl mt-6'>
-          Instantly search all available domain names, domain extensions, and
-          domains for sale.
-        </span>
-      </div>
-      <div className='flex w-full items-center justify-center '>
+    <div className='m-auto min-h-screen flex flex-col gap-10 justify-start items-center bg-black text-white px-10'>
+      <div className='flex w-full items-center justify-center mt-14'>
         <input
           type='text'
           placeholder='example.com'
@@ -69,6 +57,12 @@ const index = () => {
         </span>
         <span className='border border-gray-500 px-2.5 py-1 rounded-full cursor-pointer'>
           Social Media Username
+        </span>
+      </div>
+      <div className='bg-gray-700 h-0.5 w-full' />
+      <div className='flex flex-col w-full justify-start'>
+        <span className='text-2xl font-extrabold sdm:text-4xl sm:gap-3 md:text-5xl mdx:text-6xl'>
+          sagarjaid.com
         </span>
       </div>
     </div>
